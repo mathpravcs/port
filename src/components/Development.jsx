@@ -5,7 +5,7 @@ import Atom from "./Atom";
 import styled from "styled-components";
 
 const Desc = styled.div`
-  width: 200px;
+  width: 250px;
   height: 70px;
   padding: 20px;
   background-color: white;
@@ -33,8 +33,9 @@ const Development = () => {
         </Suspense>
       </Canvas>
       <Desc>
-        We design products with a strong focus on both world class design and
-        ensuring your product is a market success.
+        Análise de requisitos, Planejamento, Design, Desenvolvimento, Testes,
+        Homologação, Deploy, Manutenção e Suporte, Realizo todo o ciclo de vida
+        de um produto de software.
       </Desc>
     </>
   );

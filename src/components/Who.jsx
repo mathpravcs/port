@@ -78,6 +78,10 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
+const openGithub = () => {
+  window.open("https://github.com/mathpravcs", "_blank");
+};
+
 const Who = () => {
   return (
     <Section>
@@ -93,16 +97,20 @@ const Who = () => {
           </Canvas>
         </Left>
         <Right>
-          <Title>Think outside the square space</Title>
+          <Title>Sobre mim</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>Who we Are</Subtitle>
+            <Subtitle>Software Engineer</Subtitle>
           </WhatWeDo>
           <Desc>
-            a creative group of designers and developers with a passion for the
-            arts.
+            Atualmente estou trabalhando na Oss Brasil, como desenvolvedor full
+            stack, dentro das minhas atribuições estão desenvolvimento de
+            aplicações web e mobile, utilzando as principais tecnologias do
+            mercado. Minhas hard skills incluem: NestJS, Typescript, NodeJs,
+            React, React Native, MongoDB, MySql, TypeORM, Sequelize, Docker,
+            Git, GCP, AWS e CloudFlare
           </Desc>
-          <Button>See our works</Button>
+          <Button onClick={openGithub}>Veja meus projetos</Button>
         </Right>
       </Container>
     </Section>

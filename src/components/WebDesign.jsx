@@ -35,8 +35,8 @@ const WebDesign = () => {
         </Suspense>
       </Canvas>
       <Desc>
-        We design products with a strong focus on both world class design and
-        ensuring your product is a market success.
+        Desenvolver protótipos e wireframes para a interface da aplicação,
+        garantindo uma boa experiência do usuário (UX/UI).
       </Desc>
     </>
   );

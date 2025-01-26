@@ -4,13 +4,7 @@ import Development from "./Development";
 import ProductDesign from "./ProductDesign";
 import WebDesign from "./WebDesign";
 
-const data = [
-  "Web Design",
-  "Development",
-  "Illustration",
-  "Product Design",
-  "Social Media",
-];
+const data = ["Web Design", "Desenvolvimento", "Product Design"];
 
 const Section = styled.div`
   height: 100vh;
@@ -111,7 +105,7 @@ const Works = () => {
         <Right>
           {work === "Web Design" ? (
             <WebDesign />
-          ) : work === "Development" ? (
+          ) : work === "Desenvolvimento" ? (
             <Development />
           ) : (
             <ProductDesign />

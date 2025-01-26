@@ -17,10 +17,10 @@ const Container = styled.div`
 `;
 
 const Left = styled.div`
-  flex: 1;
+  flex: 8;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   @media only screen and (max-width: 768px) {
     justify-content: center;
   }
@@ -103,7 +103,7 @@ const Contact = () => {
       <Container>
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
-            <Title>Contact Us</Title>
+            <Title>Contact me</Title>
             <Input placeholder="Name" name="name" />
             <Input placeholder="Email" name="email" />
             <TextArea
@@ -117,7 +117,7 @@ const Contact = () => {
           </Form>
         </Left>
         <Right>
-          <Map />
+          {/* <Map /> */}
         </Right>
       </Container>
     </Section>

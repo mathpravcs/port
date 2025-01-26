@@ -5,7 +5,7 @@ import Shoe from "./Shoe";
 import styled from "styled-components";
 
 const Desc = styled.div`
-  width: 200px;
+  width: 250px;
   height: 70px;
   padding: 20px;
   background-color: white;
@@ -35,8 +35,9 @@ const ProductDesign = () => {
         </Suspense>
       </Canvas>
       <Desc>
-        We design products with a strong focus on both world class design and
-        ensuring your product is a market success.
+        Foco no design e desenvolvimento de produtos digitais inteiros,
+        considerando o ciclo de vida do produto, a experiência completa do
+        usuário e a resolução de problemas.
       </Desc>
     </>
   );
